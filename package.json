@@ -7,9 +7,9 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run install && npm run build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install && npm run build --prefix client",
     "server": "nodemon server/server.js",
-    "start": "concurrently --kill-others-on-fail \"npm run server\""
+    "start": "npm run server"
   },
   "keywords": [],
   "author": "",
