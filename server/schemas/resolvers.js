@@ -38,6 +38,7 @@ const resolvers = {
             }
 
             const token = signToken(user);
+            return { user, token }
         },
         addBook: async (parent, { title }, context) => {
             await User.findOneAndUpdate(
