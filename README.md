@@ -9,4 +9,10 @@ All packages must be installed for both client and server as well as the 'Concur
 ## Usage
 Upon launching the server and client, the user will be brought to a search page where they may search for any book. The user must be logged in, either logging in or signing up via the button in top right. After successfully logging in, the user may save any book that comes up in the search results. However, as of currently, this feature is yet to be implemented.
 
-You can view the webpage [here]
+You can view the webpage [here](https://tranquil-bastion-66441.herokuapp.com/).
+
+## Credits
+N/A
+
+## License
+N/A
